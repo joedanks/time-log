@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-
-// type TimeBoxProps = 
+import React from 'react';
 
 function TimeBox(props: {
     time: string,
