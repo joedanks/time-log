@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 
-export default function TimeBox(props) {
+// type TimeBoxProps = 
+
+function TimeBox(props: {
+    time: string,
+    setTime(time: string): void
+}) {
     return (
         <div>
             <input type='time'
@@ -9,3 +14,5 @@ export default function TimeBox(props) {
         </div>
     );
 }
+
+export default TimeBox;
